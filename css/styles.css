@@ -465,23 +465,16 @@ section {
 
 /* Footer */
 .footer {
-	/* display: flex;
-	justify-content: center;
-	align-items: center; */
 	padding: 60px 0 60px 0;
 	background-color: var(--background-color-dark);
 }
 
 .footer-wraper {
 	display: flex;
-	justify-content: space-between;
 	align-items: baseline;
 }
 
-/* .social-container {
-	display: inline-block;
-	margin-left: 70px;
-} */
+
 
 /* Footer logo and adress  */
 .adress {
@@ -522,6 +515,9 @@ section {
 }
 
 /* Footer-socials */
+.social-container {
+	margin-left: 70px;
+}
 .footer-wraper .socila-container .social-list {
 	margin-top: 0;
 }
@@ -546,7 +542,7 @@ section {
 /* Subscribe  */
 .right-container {
 	display: block;
-	/* margin-left: 93px; */
+	margin-left: auto;
 	
 }
 .titel-subscribe {
@@ -662,22 +658,6 @@ section {
 .project-link:focus .project-details {
 	transform: translateY(0);
 }
-/* .project-wrap-details:hover .project-details,
-.project-wrap-details:focus .project-details {
-	transform: translateY(0);
-} */
-/* .overlay {
-	position: absolute;
-	top:0;
-	left:0;
-	width: 100%;
-	height: 100%;
-	background-color: var(--secondary-color);
-	transform: translatex(-100%);
-  	transition: transform 250ms ease;
-} */
-
-
 
 .project-desc {
 	padding: 20px 24px;
@@ -802,6 +782,9 @@ section {
 	display: flex;
 	flex-direction: column;
 	margin-bottom:10px;
+}
+.form-field:last-child {
+	margin-bottom:0;
 }
 .field-titel {
 	margin-bottom: 4px;
