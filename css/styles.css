@@ -309,8 +309,8 @@ section {
 	position:relative;
 } */
 .about-item {
-	position: relative;
-	text-align: center;
+		position: relative;
+		text-align: center;
 }
 .about-item::before {
 	content:" ";
